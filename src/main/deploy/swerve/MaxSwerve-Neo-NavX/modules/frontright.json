@@ -22,5 +22,10 @@
   "location": {
     "front": 24,
     "left": -24
+  },
+
+  "conversionFactor": {
+    "angle": 0.39997333511,
+    "drive": 0.0332443667
   }
 }
