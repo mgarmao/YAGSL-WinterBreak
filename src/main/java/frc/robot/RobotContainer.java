@@ -33,7 +33,7 @@ public class RobotContainer
 {
 
   // The robot's subsystems and commands are defined here...
-  SwerveDrive swerveDrive=new SwerveParser(new File(Filesystem.getDeployDirectory(),"swerve/swerveMax")).createSwerveDrive(Units.feetToMeters(13.79));
+  SwerveDrive swerveDrive=new SwerveParser(new File(Filesystem.getDeployDirectory(),"swerve")).createSwerveDrive(Units.feetToMeters(13.79));
   // CommandJoystick rotationController = new CommandJoystick(1);
   // Replace with CommandPS4Controller or CommandJoystick if needed
   CommandJoystick driverController = new CommandJoystick(1);
