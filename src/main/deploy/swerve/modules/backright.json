@@ -6,22 +6,22 @@
   "absoluteEncoderOffset": -11.344564,
   "drive": {
     "type": "sparkmax",
-    "id": 3,
-    "canbus": 3
+    "id": 4,
+    "canbus": null
   },
   "angle": {
     "type": "sparkmax",
-    "id": 4,
-    "canbus": 4
+    "id": 3,
+    "canbus": null
   },
   "conversionFactor": {
-    "angle": 0.39997333511,
+    "angle": 11.42,
     "drive": 0.0332443667
   },
   "encoder": {
-    "type": "Thrifty",
+    "type": "thrifty",
     "id": 2,
-    "canbus": "rio"
+    "canbus": null
   },
   "inverted": {
     "drive": false,
