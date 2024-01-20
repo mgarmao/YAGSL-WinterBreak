@@ -370,4 +370,8 @@ public class SwerveSubsystem extends SubsystemBase
 
     return autoBuilder.fullAuto(pathGroup);
   }
+
+public Command getAutonomousCommand(String string, boolean b) {
+    return null;
+}
 }
